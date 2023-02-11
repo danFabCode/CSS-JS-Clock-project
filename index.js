@@ -2,7 +2,6 @@ const secondHand = document.querySelector(".second-hand")
 const minHand = document.querySelector(".min-hand")
 const hourHand = document.querySelector(".hour-hand")
 function setDate(){
-    console.log('hello');
     const now = new Date();
     const seconds = now.getSeconds();
     const secondsDegree = (seconds/60)*360;
