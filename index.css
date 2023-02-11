@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+body{
+    background: url(images/colin-watts-JbkmqKATBys-unsplash.jpg) center no-repeat;
+    background-size: cover;
+}
+.clock-face{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    margin:20px auto;
+    border-radius: 100%;
+    border: 8px solid white;
+    
+}
+.hand{
+    width: 85px;
+    height: 2px;
+    background-color: white;
+    margin:0 5px;
+    position: absolute;
+    top: 20%;
+    transform-origin: 100%;
+    transform: rotate(220deg);
+    transition: all 0.5s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+
